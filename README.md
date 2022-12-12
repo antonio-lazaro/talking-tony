@@ -10,7 +10,7 @@ The objective of the model to be developed is to find the most appropriate answe
 
 ## Setup
 
-I used Python `3.10.8`. but the codebase is expected to be compatible with Python `3.7`.
+I used Python `3.10.8`, but the codebase is expected to be compatible with Python `3.7`.
 
 To install all the dependencies:
 
