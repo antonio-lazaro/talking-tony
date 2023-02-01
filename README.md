@@ -23,3 +23,15 @@ pip install -r requirements.txt
 The data consists of a [CSV file](data/en.csv) with two columns: `question` and `answer`. At first, only English will be used, although more languages are intended to be added in the future.
 
 To test the performance of the model, I have defined a test dataset with variations of the initial dataset questions. The dataset consists of a [CSV file](data/en-var.csv) with two columns: `question` and `variation`.
+
+## Python usage
+
+The model can be used within Python: 
+
+```python
+tt = __import__("talking-tony")
+
+model = tt.load_model("base")
+answer = model.answer("What's your name?")
+print(answer)
+```
